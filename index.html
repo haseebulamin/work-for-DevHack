@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career</title>
+    <!-- bootstarp 5 link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- style sheet link  -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar_wrap fixed-top">
+      <div class="container-fluid">
+        <h3 class="logo">C<i class="bi bi-dot dot_wrap"></i></h3>
+        <button
+          class="navbar-toggler toggler_wrap"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav_wrap">
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="#">Course</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="#">Footer</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="icon"><i class="bi bi-search"></i></div>
+            <button class="btn btn-outline-success btn_wrap" type="button">
+              Login <i class="bi bi-person-circle person_wrap"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- home (crousal) section  -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/1st home.jpg" class="d-block w-100 h-100" alt="..." />
+          <div class="carousel-caption">
+            <h5 class="heading">Love to learn</h5>
+            <p>
+              When you have the right tools and resouces, learning is
+              fascinating! <br />
+              Bestselling Resources.
+            </p>
+            <p><a href="" class="btn btn_wrap mt-3">Learn more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/2nd home.jpg" class="d-block w-100 h-100" alt="..." />
+          <div class="carousel-caption">
+            <h5 class="heading">Learning</h5>
+            <p>
+              “For the things we have to learn before we can do them, we learn by doing them.”
+            </p>
+            <p><a href="" class="btn btn_wrap mt-3">Learn more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/3rd home.jpg" class="d-block w-100 h-100" alt="..." />
+          <div class="carousel-caption">
+            <h5 class="heading">purpose</h5>
+            <p>
+              “Through online courses, students can gain the knowledge they need to earn their degree or grow in their profession.”
+            </p>
+            <p><a href="" class="btn btn_wrap mt-3">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <!-- contact section  -->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h1 class="heading">Contact Us</h1>
+              <p class="contact_content">
+                If you have any query then contact us by filling the details
+                below.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 pb-4">
+            <form action="#" class="p-4 m-auto">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="name" class="lable_text">Enter your Name:</label>
+                    <input
+                      type="text "
+                      class="form-control contact_form form_input"
+                      placeholder="Name"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="name" class="lable_text">Enter your E-mail:</label>
+                    <input
+                      type="email "
+                      class="form-control contact_form form_input"
+                      placeholder="E-mail"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="name" class="lable_text">Enter your Phone Number:</label>
+                    <input
+                      type="number"
+                      class="form-control contact_form form_input"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="name" class="lable_text">Enter your Country:</label>
+                    <input
+                      type="text "
+                      class="form-control contact_form form_input"
+                      placeholder="Country"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <label for="name" class="lable_text">Have questions?</label>
+                    <textarea
+                      name=""
+                      rows="3"
+                      class="form-control contact_form form_input"
+                      placeholder="Your query here"
+                    ></textarea>
+                  </div>
+                </div>
+                <button class="btn btn_color text-dark btn-lg btn-block mt-3">
+                  Send Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
